@@ -1,1 +1,2 @@
-writtenNumber(input: number): string;
+function writtenNumber(input: number): string;
+export = writtenNumber;
