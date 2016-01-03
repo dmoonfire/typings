@@ -1,4 +1,3 @@
-export module "random-js" {
 interface IntegerFunc { (engine: RandomEngine): number; }
 
 interface Random {
@@ -17,4 +16,3 @@ interface RandomEngine {
 }
 
 export = Random;
-}
