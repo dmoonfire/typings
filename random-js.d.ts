@@ -1,18 +1,18 @@
 interface IntegerFunc { (engine: RandomEngine): number; }
 
 interface Random {
-	public engines = new RandomEngines();
-	public integer(min: number, max: number): IntegerFunc;
+	engines: RandomEngines;
+	integer(min: number, max: number): IntegerFunc;
 }
 
 interface RandomEngines {
-	public mt19937(): RandomEngine;
+	mt19937(): RandomEngine;
 }
 
 interface RandomEngine {
-	public (): number;
-	public seed(value: number);
-	public autoSeed();
+	(): number;
+	seed(value: number);
+	autoSeed();
 }
 
-export = new Random();
+export = Random;
