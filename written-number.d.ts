@@ -1,0 +1,1 @@
+writtenNumber(input: number): string;

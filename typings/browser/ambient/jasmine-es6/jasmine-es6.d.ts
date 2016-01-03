@@ -1,4 +1,6 @@
 // Compiled using typings@0.4.1
+// Source: https://raw.githubusercontent.com/dmoonfire/typings/master/jasmine-es6.d.ts
+// Compiled using typings@0.4.1
 // Source: https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/d2dd0dbfc70f5bd50aab635156620b3a2578a48d/jasmine/jasmine.d.ts
 declare module 'jasmine' {
 // Type definitions for Jasmine 2.2

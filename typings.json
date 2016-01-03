@@ -1,0 +1,5 @@
+{
+  "ambientDevDependencies": {
+    "jasmine-es6": "github:dmoonfire/typings/jasmine-es6.d.ts"
+  }
+}
