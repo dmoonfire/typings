@@ -1,5 +1,5 @@
 interface Numeral {
-    format(format: string = ""): string;
+    format(format?: string): string;
     unformat(input: string): Numeral;
     value(): number;
     add(value: number): Numeral;
@@ -7,5 +7,5 @@ interface Numeral {
     set(value: number): void;
 }
 
-function numeral(input: number = null): Numeral;
+function numeral(input?: number): Numeral;
 export = numeral;
