@@ -1,2 +1,2 @@
-export declare sync(path: string);
-export default mkdirp(path: string, callback: any);
+export function sync(path: string);
+export default function mkdirp(path: string, callback: any);
