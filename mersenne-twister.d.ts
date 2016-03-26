@@ -9,4 +9,4 @@ export declare class MersenneTwister {
 	public random_int31(): number;
 }
 
-export = MersenneTwister;
+export default MersenneTwister;
