@@ -1,5 +1,5 @@
 export declare class MersenneTwister {
-	constructor(seed: number = null);
+	constructor(seed?: number);
 
 	public random(): number;
 	public random_int(): number;
